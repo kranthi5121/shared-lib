@@ -1,2 +1,11 @@
-@Library('name') _
-name(currentjob.getname())
+/*@Library('name') _
+name(currentjob.getname())*/
+node {
+    stage("Hello World") {
+        script {
+            sh """
+                echo Hi Alice
+            """
+        }
+    }
+}
