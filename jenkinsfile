@@ -1,2 +1,2 @@
-@Library('my-shared-library') _
+@Library('name') _
 name(currentjob.getname())
